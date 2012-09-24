@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="chrome://quickwiki/content/overlay.css" type="text/css"?>
+
+<overlay id="youdaohelper" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+	<script type="application/x-javascript" src="chrome://quickwiki/content/youdaohelper.js"/>
+	<script type="application/x-javascript"><![CDATA[
+		;
+	]]></script>
+
+</overlay>

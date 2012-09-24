@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+     xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+     <Description about="urn:mozilla:install-manifest">
+
+       <em:id>youdaohelper@alex.wu</em:id>
+       <em:name>youdao dictionary helper xui</em:name>
+       <em:version>1.0</em:version>
+       <em:type>2</em:type>  <!-- type 2 stands for Extensions -->
+       <em:unpack>true</em:unpack> <!-- allow unpacked -->
+
+       <em:description>overlay help for youdao english-chinese dictionary (dict.youdao.com).</em:description>
+       <em:creator>Alex Wu</em:creator>
+       <em:homepageURL>Http://wyding.blogspot.com</em:homepageURL>
+       <em:iconURL>chrome://youdaohelper/skin/icon48.png</em:iconURL>
+       <em:icon64URL>chrome://youdaohelper/skin/icon64.png</em:icon64URL>
+       <em:optionsURL>chrome://youdaohelper/content/options.xul</em:optionsURL>
+
+       <!-- FireFox -->
+       <em:targetApplication>
+            <Description>
+                <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+                <em:minVersion>13.0</em:minVersion>
+                <em:maxVersion>17.*</em:maxVersion>
+            </Description>
+       </em:targetApplication>
+
+     </Description>
+</RDF>

@@ -1,0 +1,3 @@
+function saveOptions() {
+    return true;
+}

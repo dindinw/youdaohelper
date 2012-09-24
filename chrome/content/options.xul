@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+
+<prefwindow xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" id="YoudaoHelperOptionsDialog"
+		title="Youdao Helper Options" ondialogaccept="return saveOptions();">
+	<script type="application/x-javascript" src="chrome://youdaohelper/content/options.js"/>
+	<prefpane>
+		<tabbox>
+			<tabs>
+				<tab label="About"/>
+			</tabs>
+			<tabpanels>
+				<tabpanel>
+					<vbox align="end">
+						<spacer flex="1"/>
+						<hbox align="center">
+							<image src="chrome://youdaohelper/skin/icon64.png"/>
+							<label value="Youdao helper version 1.0" style="font-size: 12px"/>
+						</hbox>
+						<spacer flex="1"/>
+						<hbox align="end">
+							<label value="released on: Sept 2012" style="color: #AAAAAA"/>
+						</hbox>
+					</vbox>
+				</tabpanel>
+			</tabpanels>
+		</tabbox>
+	</prefpane>
+</prefwindow>
